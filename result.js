@@ -31,7 +31,7 @@ $(document).ready(function () {
 
     function drawGraph() {
         const width = 600;
-        const height = 800;
+        const height = 600;
         const Y_STEP = 100;
         const font_l = {
             family: 'Helvetica',
@@ -141,17 +141,11 @@ $(document).ready(function () {
             y: height - 60,
             fill: "black"
         }).font(font_title);
-        svg.text("yavt.fengtao.xyz").attr({
+        svg.text("goforcex.github.io/YAVT").attr({
             x: 20,
             y: height - 40,
             fill: "black"
         }).font(font_title);
-        svg.image("SVGS/qrcode.svg").attr({
-            x: 360,
-            y: 530,
-            width: 200,
-            height: 200,
-        });
         svg.text("基于8values的倾向测试").attr({
             x: 370,
             y: height - 60,
